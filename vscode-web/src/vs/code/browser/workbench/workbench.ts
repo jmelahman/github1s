@@ -34,7 +34,7 @@ declare global {
 				title?: string; // logo title
 				onClick?: () => void; // logo click callback
 			};
-			// descripbe how to open other workspace,
+			// describe how to open other workspace,
 			// only worked when folderUri is defined
 			openWorkspace?: IWorkspaceProvider['open'];
 			onWorkbenchReady?: (scheme: string) => void; // workbench ready callback
